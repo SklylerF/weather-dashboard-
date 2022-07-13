@@ -3,14 +3,164 @@
 <html>
 
 <head>
+
     <title>weather dashboard</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <script type="text/JavaScript" src=" https://MomentJS.com/downloads/moment.js"></script>
 </head>
+<header>
+    <h1>Weather Dashboard</h1>
+</header>
 
 <body>
-<button id="btn"></button>
+    <div>
+        <h2>Search for a city:</h1>
+    </div>
+    <div id="input">
 
-<script src="./assets/index.js"></script>
+    </div>
+    <div>
+        <button id="search">Search</button>
+        <p>Search History:</p>
+    </div>
+    <div id="searchHistory">
+    </div>
+    <div class="rightBox">
+        <div class="nameDate">
+            <h1 id="name"></h1>
+            <h1 id="time"></h1>
+        </div>
+        <div class="nameDate">
+            <p>Temp: </p>
+            <p id="temp"></p>
+        </div>
+        <div class="nameDate">
+            <p>Wind:</p>
+            <p id="wind"></p>
+            <p>MPH</p>
+        </div>
+        <div class="nameDate">
+            <p>Humidity:</p>
+            <p id="humidity"></p>
+            <p>%</p>
+        </div>
+        <div class="nameDate">
+            <p>UV index:</p>
+            <p id="uvindex"></p>
+        </div>
+    </div>
+    <div class="btns">
+        <button value="Austin" id="AustinBtn">Austin</button>
+        <button value="Chicago" id="ChicagoBtn">Chicago</button>
+        <button value="New York" id="NewYorkBtn">New York</button>
+        <button value="Orlando" id="OrlandoBtn">Orlando</button>
+        <button value="San Francisco" id="SanFranciscoBtn">San Francisco</button>
+        <button value="Seattle" id="SeattleBtn">Seattle</button>
+        <button value="Denver" id="DenverBtn">Denver</button>
+        <button value="Atlanta" id="AtlantaBtn">Atlanta</button>
+    </div>
+    <div class="Day">
+        <h2>5-Day Forcast</h2>
+    </div>
+
+    <div id="bottomBox">
+        <div class="nameDate">
+            <p>2022-12-13</p>
+        </div>
+        <div class="nameDate">
+
+            <p>temp:</p>
+            <p id="tomorrowTemp5"></p>
+        </div>
+        <div class="nameDate">
+            <p>wind:</p>
+            <p id="tomrrowWind5"></p>
+        </div class="nameDate">
+        <div class="nameDate">
+            <p>himidity:</p>
+            <p id="tomorrowHumidity5"></p>
+        </div>
+    </div>
+
+    <div id="bottomBox">
+        <div class="nameDate">
+            <p>2022-11-13</p>
+        </div>
+        <div class="nameDate">
+
+            <p>temp:</p>
+            <p id="tomorrowTemp4"></p>
+        </div>
+        <div class="nameDate">
+            <p>wind:</p>
+            <p id="tomrrowWind4"></p>
+        </div class="nameDate">
+        <div class="nameDate">
+            <p>himidity:</p>
+            <p id="tomorrowHumidity4"></p>
+        </div>
+    </div>
+
+    <div id="bottomBox">
+        <div class="nameDate">
+            <p>2022-10-13</p>
+        </div>
+        <div class="nameDate">
+
+            <p>temp:</p>
+            <p id="tomorrowTemp3"></p>
+        </div>
+        <div class="nameDate">
+            <p>wind:</p>
+            <p id="tomrrowWind3"></p>
+        </div class="nameDate">
+        <div class="nameDate">
+            <p>himidity:</p>
+            <p id="tomorrowHumidity3"></p>
+        </div>
+    </div>
+
+    <div id="bottomBox">
+        <div class="nameDate">
+            <p>2022-09-13</p>
+        </div>
+
+
+        <div class="nameDate">
+            <p>temp:</p>
+            <p id="tomorrowTemp2"></p>
+        </div>
+        <div class="nameDate">
+            <p>wind:</p>
+            <p id="tomrrowWind2"></p>
+        </div class="nameDate">
+        <div class="nameDate">
+            <p>himidity:</p>
+            <p id="tomorrowHumidity2"></p>
+        </div>
+    </div>
+
+    <div id="bottomBox">
+        <div class="nameDate">
+            <p>2022-08-13</p>
+        </div>
+        <div class="nameDate">
+
+            <p>temp:</p>
+            <p id="tomorrowTemp"></p>
+        </div>
+        <div class="nameDate">
+            <p>wind:</p>
+            <p id="tomrrowWind"></p>
+        </div class="nameDate">
+        <div class="nameDate">
+            <p>himidity:</p>
+            <p id="tomorrowHumidity"></p>
+        </div>
+    </div>
+
+    <script src="./assets/index.js"></script>
+
 </body>
 
 </html>

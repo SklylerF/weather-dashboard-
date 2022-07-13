@@ -1,0 +1,57 @@
+*{
+    overflow-clip-margin: ;
+}
+header {
+    text-align: center;
+    background-color: royalblue;
+}
+
+.btns {
+    display: inline-grid;
+
+}
+
+#input {
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 10px;
+    border-style: solid;
+    width: 140px;
+    height: 50px;
+    padding: 10px;
+}
+
+.rightBox {
+    display: grid;
+    border-style: solid;
+    right: auto;
+    float: right;
+    width: 1000px;
+    top: -167px;
+    position: relative;
+}
+
+.nameDate {
+    display: inline-flex;
+}
+
+#search {
+    background-color: royalblue;
+}
+
+#bottomBox {
+    display: grid;
+    border-style: solid;
+    right: -456px;
+    float: right;
+    width: 130px;
+    top: -65px;
+    position: relative;
+}
+
+.Day {
+    right: -208px;
+    top: -69px;
+    position: relative;
+    text-align: center;
+}
